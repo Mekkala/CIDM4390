@@ -14,7 +14,7 @@ namespace CodingClub.Models
                 serviceProvider.GetRequiredService<
                     DbContextOptions<MvcCodingClubContext>>()))
             {
-                // Look for any movies.
+                
                 if (context.Members.Any())
                 {
                     return;   // DB has been seeded
@@ -42,11 +42,66 @@ namespace CodingClub.Models
                         Email = "sbaker@buffs.wtmau.edu",
                         Classification = "Senior"
                     }
-                    
+                );
+
+                context.SaveChanges();
+
+                // Look for any movies.
+                if (context.Projects.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+                context.Projects.AddRange(
+                    new Project
+                    {
+                        Name = "Go Green",
+                        Details = "Developing App"
+
+                    },
+
+                    new Project
+                    {
+                        Name = "Baking Website",
+                        Details = "Developing website for local bank"
+
+                    }
+
+                );
+
+                context.SaveChanges();
+                // Look for any movies.
+                if (context.Clients.Any())
+                {
+                    return;   // DB has been seeded
+                }
+
+                context.Clients.AddRange(
+                    new Client
+                    {
+                        Name = "John Lively",
+                        PhoneNumber = "9862345432",
+                        Email = "john@gmail.com",
+                        Organization = "Save Environtal Group"
+
+                    },
+
+                    new Client
+                    {
+                        Name = "Linda Holly",
+                        PhoneNumber = "9045673459",
+                        Email = "Hlinda@yahoo.com",
+                        Organization = "Canyon first bank"
+
+                    }
+
                 );
                 context.SaveChanges();
+            }
         }
     }
-}
+
 
 }
+    
+     

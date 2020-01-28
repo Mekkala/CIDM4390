@@ -162,3 +162,13 @@ C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Member\Delete.cshtml.
 C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Member\Details.cshtml.g.cs
 C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Member\Edit.cshtml.g.cs
 C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Member\Index.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Project\Create.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Project\Delete.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Project\Details.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Project\Edit.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Project\Index.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Client\Create.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Client\Delete.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Client\Details.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Client\Edit.cshtml.g.cs
+C:\CIDM4390\CodingClub\obj\Debug\netcoreapp3.1\Razor\Views\Client\Index.cshtml.g.cs

@@ -11,5 +11,9 @@ namespace CodingClub.Data
         }
 
         public DbSet<Member> Members { get; set; }
+
+        public DbSet<Project> Projects { get; set; }
+
+        public DbSet<Client> Clients { get; set; }
     }
 }
